@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Snehasis Chakraborty — CSE student, developer, and tech enthusiast at Haldia Institute of Technology.">
+    <title>Snehasis Chakraborty | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>SC<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">
+                    <span class="greeting-line"></span>
+                    <span class="greeting-text">Hello, I'm</span>
+                </p>
+                <h1 class="hero-name">
+                    <span class="name-line" id="name-line-1">Snehasis</span>
+                    <span class="name-line accent" id="name-line-2">Chakraborty</span>
+                </h1>
+                <div class="hero-typewriter">
+                    <span class="typewriter-static">I'm a </span>
+                    <span class="typewriter-text" id="typewriter"></span>
+                    <span class="typewriter-cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    A passionate Computer Science student crafting digital experiences
+                    with clean code and creative design. Currently exploring the
+                    intersection of technology and innovation.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="mailto:snehasis@example.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-avatar-wrapper">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-ring ring-2"></div>
+                    <div class="avatar-placeholder">
+                        <img src="profile.jpg" alt="Snehasis Chakraborty" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                    </div>
+                    <div class="floating-icon icon-1"><i class="fab fa-html5"></i></div>
+                    <div class="floating-icon icon-2"><i class="fab fa-css3-alt"></i></div>
+                    <div class="floating-icon icon-3"><i class="fab fa-js"></i></div>
+                    <div class="floating-icon icon-4"><i class="fab fa-python"></i></div>
+                    <div class="floating-icon icon-5"><i class="fab fa-react"></i></div>
+                    <div class="floating-icon icon-6"><i class="fab fa-java"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;about&gt;</span>
+                <h2 class="section-title">About <span class="accent">Me</span></h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-container">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder" style="overflow:hidden;">
+                            <img src="profile.jpg" alt="Snehasis Chakraborty" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
+                        </div>
+                        <div class="about-image-border"></div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="badge-number">2+</span>
+                        <span class="badge-text">Years of<br>Coding</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3 class="about-heading">A passionate CSE student from <span class="accent">Haldia Institute of
+                            Technology</span></h3>
+                    <p class="about-text">
+                        I'm Snehasis Chakraborty, a 2nd year Computer Science & Engineering student
+                        with a deep passion for building things that live on the internet. I love creating
+                        elegant solutions to complex problems and enjoy the entire process from ideation
+                        to deployment.
+                    </p>
+                    <p class="about-text">
+                        My journey in tech started with curiosity about how things work behind the screen,
+                        and it has evolved into a full-blown love for software development. When I'm not
+                        coding, you'll find me exploring new technologies, contributing to open-source projects,
+                        or participating in hackathons.
+                    </p>
+                    <div class="about-info-grid">
+                        <div class="about-info-item">
+                            <span class="info-label"><i class="fas fa-user"></i> Name</span>
+                            <span class="info-value">Snehasis Chakraborty</span>
+                        </div>
+                        <div class="about-info-item">
+                            <span class="info-label"><i class="fas fa-graduation-cap"></i> Degree</span>
+                            <span class="info-value">B.Tech in CSE</span>
+                        </div>
+                        <div class="about-info-item">
+                            <span class="info-label"><i class="fas fa-university"></i> College</span>
+                            <span class="info-value">Haldia Institute of Technology</span>
+                        </div>
+                        <div class="about-info-item">
+                            <span class="info-label"><i class="fas fa-calendar"></i> Year</span>
+                            <span class="info-value">2nd Year (2024–2028)</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-handshake"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;skills&gt;</span>
+                <h2 class="section-title">My <span class="accent">Skills</span></h2>
+                <p class="section-subtitle">Technologies & tools I work with</p>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-code"></i></div>
+                        <h3 class="category-title">Languages</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-level="85">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="80">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="90">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="75">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="70">
+                            <div class="skill-icon"><i class="fas fa-copyright"></i></div>
+                            <span class="skill-name">C / C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-palette"></i></div>
+                        <h3 class="category-title">Frontend</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-level="95">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="90">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="75">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="70">
+                            <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                            <span class="skill-name">Bootstrap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-server"></i></div>
+                        <h3 class="category-title">Backend & Tools</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-level="70">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="75">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="65">
+                            <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-level="60">
+                            <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;projects&gt;</span>
+                <h2 class="section-title">My <span class="accent">Projects</span></h2>
+                <p class="section-subtitle">Some things I've built</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Code"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="#" class="project-link" aria-label="Live Demo"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">BharatFarm</h3>
+                        <p class="project-description">An AI-powered agriculture platform with weather tracking, crop
+                            disease detection, and smart farming recommendations for Indian farmers.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Code"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="#" class="project-link" aria-label="Live Demo"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">IPL Akinator</h3>
+                        <p class="project-description">An intelligent cricket player guessing game using probabilistic
+                            AI algorithms and adaptive questioning to identify IPL players.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">AI Logic</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Code"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="#" class="project-link" aria-label="Live Demo"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">A modern, animated personal portfolio featuring glassmorphism
+                            design, particle effects, and smooth scroll animations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Canvas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;education&gt;</span>
+                <h2 class="section-title">My <span class="accent">Education</span></h2>
+                <p class="section-subtitle">Academic journey so far</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2024 – 2028</div>
+                        <h3 class="timeline-title">B.Tech in Computer Science & Engineering</h3>
+                        <h4 class="timeline-subtitle"><i class="fas fa-university"></i> Haldia Institute of Technology
+                        </h4>
+                        <p class="timeline-text">Currently in 2nd year, pursuing a bachelor's degree in Computer Science
+                            & Engineering. Actively participating in coding clubs, hackathons, and building real-world
+                            projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2022 – 2024</div>
+                        <h3 class="timeline-title">Higher Secondary (12th)</h3>
+                        <h4 class="timeline-subtitle"><i class="fas fa-school"></i> Science Stream — PCM + CS</h4>
+                        <p class="timeline-text">Completed higher secondary education with a focus on Physics,
+                            Chemistry, Mathematics, and Computer Science. Built a strong foundation in logical thinking
+                            and problem-solving.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2022</div>
+                        <h3 class="timeline-title">Secondary (10th)</h3>
+                        <h4 class="timeline-subtitle"><i class="fas fa-school"></i> Matriculation</h4>
+                        <p class="timeline-text">Completed matriculation with excellent grades, sparking a deep interest
+                            in mathematics and computer science that continues to drive my academic pursuits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;contact&gt;</span>
+                <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's talk about everything!</h3>
+                    <p class="contact-text">
+                        Feel free to reach out to me for collaboration, freelance work,
+                        or just a friendly chat about tech. I'm always open to discussing
+                        new projects and creative ideas.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:snehasis@example.com" class="contact-value">snehasis@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Haldia, West Bengal, India</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div>
+                                <span class="contact-label">Currently</span>
+                                <span class="contact-value">Open to opportunities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>SC<span class="logo-bracket">/&gt;</span>
+                </div>
+                <p class="footer-text">Designed & Built by <span class="accent">Snehasis Chakraborty</span></p>
+                <div class="footer-socials">
+                    <a href="https://github.com/" target="_blank" class="social-link" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/" target="_blank" class="social-link" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="social-link" aria-label="Twitter"><i
+                            class="fab fa-twitter"></i></a>
+                </div>
+                <p class="footer-copyright">&copy; 2026 Snehasis Chakraborty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
